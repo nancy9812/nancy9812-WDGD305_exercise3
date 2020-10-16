@@ -1,0 +1,65 @@
+@import url("https://use.typekit.net/fmg8rcy.css");
+html {
+  text-align: center;
+  font-family: "degular", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #dcffff;
+  font-family: "quiche-sans", sans-serif;
+  margin: 0;
+  padding: 17px 0;
+}
+
+h2 {
+  background-color: #dcffff;
+  font-family: "cronos-pro", sans-serif;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+p {
+  margin: auto;
+  font-size: 17px;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .holiday {
+  width: 550px;
+  margin: 17px;
+}
+
+/* laptop screen */
+
+@media screen and (min-width: 1000px) {
+  img {
+    width: 500px;
+    height: 330px;
+  }
+  p {
+    width: 500px;
+  }
+  .container {
+    width: 80%;
+  }
+}
